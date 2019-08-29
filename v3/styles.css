@@ -28,6 +28,12 @@ header {
     cursor: pointer;
     width: auto;
     height: 2rem;
+    order: 3;
+    margin-left: auto;
+}
+
+nav {
+    order: 1;
 }
 
 .nav__links {
@@ -39,6 +45,10 @@ header {
     margin: 0 20px;
 }
 
+.nav__links li:nth-child(1) {
+    padding: 0 20px 0 0;
+}
+
 .nav__links li a {
     transition: all 0.3s ease 0s;
 }
@@ -47,7 +57,12 @@ header {
     color: #0088a9;
 }
 
+.cta {
+    order: 2;
+}
+
 button {
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;

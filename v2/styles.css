@@ -19,13 +19,16 @@ button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    /* v2 */
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
 
 .logo {
     cursor: pointer;
+    /* v2 */
+    margin-right: auto;
     width: auto;
     height: 2rem;
 }
@@ -48,6 +51,8 @@ header {
 }
 
 button {
+    /* v2 */
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
